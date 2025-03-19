@@ -1,0 +1,5 @@
+# Ignore the assignments folder
+2401193_Assignment2/
+
+# Ignore all zip files in the project
+*.zip
