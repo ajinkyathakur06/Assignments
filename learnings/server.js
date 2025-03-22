@@ -87,5 +87,5 @@ app.use('/files', express.static(rootDirectory));
 
 // Start the server
 app.listen(PORT, () => {
-    console.log(`Server is running at http://192.168.0.104:${PORT}`);
+    console.log(`Server is running at http://192.168.17.147:${PORT}`);
 });

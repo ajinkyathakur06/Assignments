@@ -1,0 +1,26 @@
+Question 3: Course Registration API
+Model
+
+Define a Course schema with fields: courseId, name, description, duration (positive integer), and students (array of student emails).
+
+Endpoints
+
+Add a Course (POST /courses)
+
+Validate courseId (unique, alphanumeric), name, and duration.
+
+Get All Courses (GET /courses):
+
+Return all courses, optionally filter by duration.
+
+Register a Student (POST /courses/:id/register):
+
+Add a student’s email to the students array. Validate the email field.
+
+Remove a Student (DELETE /courses/:id/unregister):
+
+Remove a student’s email from the students array.
+
+Delete a Course (DELETE /courses/:id):
+
+Remove a course by its id.
