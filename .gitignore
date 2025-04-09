@@ -2,3 +2,13 @@
 
 # Ignore all zip files in the project
 *.zip
+
+#Ignore all doc files
+*.doc
+*.docx
+
+#Ignore all pdf files
+*.pdf
+
+#Ignore all txt files 
+*.txt
